@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./bootstrap.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Player Config</title>
+</head>
+<body>
+  <div>
+    <h2 style="color: aliceblue">
+        Implementing interesting solutions
+    </h2>
+    <p>
+        Cool purp buttons to play and pause the video using the API/Plugin resources <br>
+        <span style="color: #ba7cf3;">Play( )</span> and <span style="color: #ba7cf3;">Pause( )</span>I also added a video Loop on the video-js :D <br>
+    </p>
+  </div>
+  <br />
+  <br />
+
+  <p>
+    <button class="bcls-button" onclick="playVideo()">Play Video</button>
+    <button class="bcls-button" onclick="pauseVideo()">Pause Video</button>
+  </p>
+  <div style="width: 960px;">
+    <video-js
+      id="my-video"
+      data-account="6415483758001"
+      data-player="nWzWo1jlG"
+      data-embed="default"
+      controls=""
+      data-video-id="6350588278112"
+      data-playlist-id=""
+      data-application-id=""
+      loop
+      width="960" height="540"
+      class="vjs-fluid">
+    </video-js>
+  </div>
+  <script src="https://players.brightcove.net/6415483758001/nWzWo1jlG_default/index.min.js"></script>
+
+  <script>
+    var myPlayer = videojs('my-video');
+    function playVideo() {
+      myPlayer.play();
+    }
+    function pauseVideo() {
+      myPlayer.pause();
+    }
+  </script>
+</body>
+</html>

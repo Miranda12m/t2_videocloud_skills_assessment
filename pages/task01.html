@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Auto Play</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <div>
+        <h2 style="color: aliceblue;">Video Autoplay and muted using Embed Code<br>
+            And I added some CSS Styles using the Player Plugins</h2>
+          <p>I also added a start time using [data-start-time="21"] on my code at the Attributes section Embed Code <br>
+            The video skips 20 seconds after 10 seconds when the video starts using Js addEventListener( )</p>
+    </div>
+    <br>
+    <br>
+    <div style="width: 960px;" class="vv1">
+        <video-js id="myVideo"
+          data-account="6415483758001"
+          data-player="c6fPHuDxz"
+          data-embed="default"
+          controls=""
+          data-video-id="6350587480112"
+          data-playlist-id=""
+          data-application-id=""
+          width="960" height="540"
+          class="vjs-fluid"
+          muted
+          autoplay
+          data-start-time="21">
+        </video-js>
+      </div>
+      <br>
+      <br>
+      <script
+        src="https://players.brightcove.net/6415483758001/c6fPHuDxz_default/index.min.js">
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var video = videojs('myVideo');
+            video.ready(function() {
+                video.play();
+                setTimeout(function() {
+                    video.currentTime(video.currentTime() + 20);
+                }, 10000); 
+            });
+        });
+      </script>
+</body>
+</html>

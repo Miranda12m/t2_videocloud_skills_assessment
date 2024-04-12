@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./bootstrap.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Lightbux</title>
+</head>
+<body>
+  <div>
+    <h2 style="color: aliceblue">
+        Lightbux
+    </h2>
+    <p>
+        Double click! and... just play the audio :c <br>
+        Because of the dead lines and it took me more then 1.5 hour sooo Im going to pass
+        I didnt make it 😞
+    </p>
+  </div>
+  <br />
+  <br />
+  <div class="player-block">
+        <div id="container">
+            <div id="playerLightbox" class="playerHide" style="width: 960px;">
+                <video-js
+                id="my-video"
+                data-account="6415483758001"
+                data-player="nWzWo1jlG"
+                data-embed="default"
+                controls=""
+                data-video-id="6350588278112"
+                data-playlist-id=""
+                data-application-id=""
+                loop
+                width="960" height="540"
+                class="vjs-fluid">
+                </video-js>
+            </div>
+        </div>
+    </div>
+  <script src="https://players.brightcove.net/6415483758001/nWzWo1jlG_default/index.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+  <script>videojs.getPlayer('my-video').simpleLightbox();</script>
+</body>
+</html>
