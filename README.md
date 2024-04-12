@@ -2,6 +2,8 @@
 
 ## By Tadeo Miranda
 
+It would be a great opportunity for me to be part of the Brightcove team. I am currently delving deeper into the documentation, becoming more familiar with Android Studio, and I am open to learning new programming languages, tools, and anything else necessary to be the ideal candidate for you.
+
 ![BC](https://imgs.search.brave.com/Am3Cw0HLYH4wHJPxEJj6RZfq-Z6A3TySphm-U9n4DdY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bmV3c2Nhc3RzdHVk/aW8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIyLzA0L2Jy/aWdodGNvdmUtbG9n/by5wbmc)
 
 ## Introduction
@@ -12,6 +14,12 @@ I would also like to mention that for the deployment in this project, I intended
 
 However, due to time constraints and meeting the project's deadline, the websites are in public S3 buckets without restrictions (I know is a really bad practice but I did that just for Tech Test purposes)
 Also if you go to the [Images Folder](https://github.com/Miranda12m/t2_videocloud_skills_assessment/tree/main/ImagesInfo) you can check my process deep.
+And I also added extra information on the websites:
+
+[--- Task 1 ---](https://technicaltestbrightcove.s3.amazonaws.com/task01.html)
+[--- Task 2 ---](https://technicaltestbrightcove.s3.amazonaws.com/task02.html)
+[--- Task 6 ---](https://technicaltestbrightcove.s3.amazonaws.com/task06.html)
+[--- Task 7 ---](https://technicaltestbrightcove.s3.amazonaws.com/task07.html)
 
 ![image](https://github.com/Miranda12m/t2_videocloud_skills_assessment/assets/114117402/fc68ff42-f1dc-4a29-95d5-41b2b6d3e660)
 
