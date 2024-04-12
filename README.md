@@ -118,7 +118,7 @@ Advertising is an important focus for us as Brightcove Support engineers.
 Following the Docs 
 - [DOC REFERENCE](https://sdks.support.brightcove.com/android/basics/step-step-simple-video-app-using-native-sdk-android.html)
 - Is working
-- My project is located in this Repository at the files
+- My project is located [HERE](https://wetransfer.com/downloads/d7f11d411e1a6b2b9906d08b846ee08520240411100301/9d27d4)
 
 ![tt2](ImagesInfo/image14.png)
 ![tt2](ImagesInfo/image15.png)
