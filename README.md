@@ -145,7 +145,7 @@ There are a lot of examples on the following page that show how to implement som
 interesting solutions with our player.
 
 - I Added some play and pause buttons, works perfect and they look pretty well just calling:
-API Methods
+different functions
 - play( )
 - pause( )
 - I also added a Loop
